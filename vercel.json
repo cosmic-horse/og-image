@@ -1,11 +1,9 @@
 {
-  "regions": ["all"],
+  "regions": ["lhr1"],
   "functions": {
     "api/**": {
       "memory": 3008
     }
   },
-  "rewrites": [
-    { "source": "/(.+)", "destination": "/api" }
-  ]
+  "rewrites": [{ "source": "/(.+)", "destination": "/api" }]
 }
