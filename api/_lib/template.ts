@@ -32,6 +32,7 @@ function getCss(theme: string, fontSize: string) {
         font-weight: normal;
         src: url(data:font/woff2;charset=utf-8;base64,${rglr}) format('woff2');
     }
+    
 
     @font-face {
         font-family: 'Inter';
