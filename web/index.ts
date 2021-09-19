@@ -149,7 +149,7 @@ const markdownOptions: DropdownOption[] = [
 
 const imageLightOptions: DropdownOption[] = [
   {
-    value: "https://developer-school-web.vercel.app/images/flutter.svg",
+    value: "https://developer-school-web.vercel.app/icons/flutter.svg",
     text: "Flutter",
   },
 ];
