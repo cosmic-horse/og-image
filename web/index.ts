@@ -149,29 +149,12 @@ const markdownOptions: DropdownOption[] = [
 
 const imageLightOptions: DropdownOption[] = [
   {
+    value: "https://cdn.worldvectorlogo.com/logos/flutter.svg",
     text: "Flutter",
-    value:
-      "https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg",
   },
 ];
 
-const imageDarkOptions: DropdownOption[] = [
-  {
-    text: "Vercel",
-    value:
-      "https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg",
-  },
-  {
-    text: "Next.js",
-    value:
-      "https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg",
-  },
-  {
-    text: "Hyper",
-    value:
-      "https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg",
-  },
-];
+const imageDarkOptions: DropdownOption[] = [];
 
 const widthOptions = [
   { text: "width", value: "auto" },
