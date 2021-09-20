@@ -152,9 +152,24 @@ const imageLightOptions: DropdownOption[] = [
     value: "https://developer-school-web.vercel.app/icons/flutter.svg",
     text: "Flutter",
   },
+  {
+    value:
+      "https://developer-school-web.vercel.app/icons/world-of-warcraft.svg",
+    text: "World of Warcraft",
+  },
 ];
 
-const imageDarkOptions: DropdownOption[] = [];
+const imageDarkOptions: DropdownOption[] = [
+  {
+    value: "https://developer-school-web.vercel.app/icons/flutter.svg",
+    text: "Flutter",
+  },
+  {
+    value:
+      "https://developer-school-web.vercel.app/icons/world-of-warcraft.svg",
+    text: "World of Warcraft",
+  },
+];
 
 const widthOptions = [
   { text: "width", value: "auto" },
